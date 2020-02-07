@@ -1,0 +1,26 @@
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background-color:#EEECE7}
+h2{color:#524C4D}
+h2 i{font-size:16px;}
+tr:first-child{font-weight:bold;background-color:#EEE}
+p{margin:2px 0}
+p i{font-size:11px;}
+#wrapper{width:990px;margin:0 auto}
+#input-wrapper{min-height:200px;background-color:#CEE3F8;border:1px solid #5F99CF;padding:20px 20px 33px;position:relative;}
+	#buttons{position:absolute;right:19px;bottom:6px;}
+		#buttons input{width:20px;text-align:right}
+#divInput{min-height:200px;border:1px solid #CCC;background-color:#FFF;}
+	#divInput table{width:100%;}
+	#divInput td{border:1px solid #CCC}
+#header{background-color:#F0F0F0;border-bottom:1px solid #808080;overflow:hidden}
+	#header h3{margin:0;padding:0;float:left}
+	
+#out-wrapper{min-height:150px;background-color:#F8ECB6;border:1px solid #FFAE1A;padding:20px;}
+#divOutput{width:100%;min-height:150px;}
+
+#divError{color:#FFF;font-weight:bold;background-color:#FCACAC;border:1px solid #FF3C36;width:100%;padding:20px;margin-bottom:10px;display:none}
+#update{margin-top:4px;text-align:right;font-size:12px;}
+
+#content{margin-bottom:70px;}
+
+.cke_editable table{width:100%}
+.fb-like{float:right;margin:1px 1px 0;}
