@@ -137,6 +137,10 @@ function parseData(data)
 		return;
 	}
 	hideError();
+
+	// Parse spoilers.
+	data = data.replace(/&gt;!(.+?)!&lt;/g, '>!$1!<');
+
 	var rows = findRows(data);
 
 	if (!rows)
